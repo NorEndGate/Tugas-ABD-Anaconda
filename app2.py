@@ -89,16 +89,16 @@ st.subheader("🖼️ Detail Mitra & Foto Lokasi")
 # Mapping nama mitra ke file gambar (nanti kamu isi file-nya)
 # Saran: buat folder `images` di sebelah main.py, lalu taruh gambar di sana.
 image_files = {
-    "Bank Sampah Melati": "BS1.jpg",
-    "Bank Sampah Kenanga": "BS2.jpg",
-    "Bank Sampah Bougenville": "BS3.jpg",
-    "Bank Sampah Anggrek": "BS4.jpg",
-    "Bank Sampah Sakura": "BS5.jpg",
-    "Bank Sampah Teratai": "BS6.jpg",
-    "Bank Sampah Mawar": "BS7.jpg",
-    "Bank Sampah Flamboyan": "BS8.jpg",
-    "Bank Sampah Kamboja": "BS9.jpg",
-    "Bank Sampah Sedap Malam": "BS10.jpg"
+    "Bank Sampah Melati": "Gambar/BS1.jpg",
+    "Bank Sampah Kenanga": "Gambar/BS2.jpg",
+    "Bank Sampah Bougenville": "Gambar/BS3.jpg",
+    "Bank Sampah Anggrek": "Gambar/BS4.jpg",
+    "Bank Sampah Sakura": "Gambar/BS5.jpg",
+    "Bank Sampah Teratai": "Gambar/BS6.jpg",
+    "Bank Sampah Mawar": "Gambar/BS7.jpg",
+    "Bank Sampah Flamboyan": "Gambar/BS8.jpg",
+    "Bank Sampah Kamboja": "Gambar/BS9.jpg",
+    "Bank Sampah Sedap Malam": "Gambar/BS10.jpg"
 }
 
 mitra_pilihan = st.selectbox("Pilih mitra untuk melihat detail & foto:", data["Nama Mitra"])
